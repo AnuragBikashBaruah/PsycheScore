@@ -17,7 +17,6 @@ License: Refer to the dataset page on Kaggle
 ```
 data/
 ├── raw/
-└── processed/
 ```
 
 * `raw/` → original dataset files
