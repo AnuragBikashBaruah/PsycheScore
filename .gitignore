@@ -1,0 +1,91 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Data 
+# =========================
+data/raw/*
+!data/raw/README.md
+
+data/processed/*
+!data/processed/README.md
+
+# =========================
+# Models (optional - comment if small)
+# =========================
+# models/*
+# !models/.gitkeep
+
+# =========================
+# Logs & Temp Files
+# =========================
+*.log
+logs/
+tmp/
+temp/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# FastAPI / Server
+# =========================
+*.db
+
+# =========================
+# Node (for frontend)
+# =========================
+node_modules/
+.next/
+out/
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.bak
